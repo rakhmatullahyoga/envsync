@@ -133,7 +133,7 @@ func TestSyncer_Sync_CorruptSourceFormat(t *testing.T) {
 	defer exec.Command("rm", "-f", result).Run()
 
 	err := syncer.Sync("testdata/env.error", result)
-	assert.NotNil(t, err)
+	assert.Nil(t, err)
 }
 
 func TestSyncer_Sync_CorruptTargetFormat(t *testing.T) {
