@@ -11,24 +11,24 @@ Envsync is a tool to synchronize source env and target env file.
 
 ## Installation
 
-1. Download the executable file in the given link below. Open the given link via your favorite browser. Choose **envsync_linux_amd64** for linux or **envsync_darwin_amd64** for OSX.
+1. Download the executable file in the given link below. Open the given link via your favorite browser.
 
     ```sh
     https://github.com/bukalapak/envsync/releases/latest
     ```
 
-2. For the next steps, please, change `OS` with "linux" or "darwin" (depend on what you have downloaded before).
+2. For the next steps, please, change `OS` with "linux" or "darwin" or "windows" and `ARCH` with "amd64" or "arm64" (depend on what you have downloaded before).
 
 3. Give the executable file the permission to execute.
 
     ```sh
-    chmod +x ~/Downloads/envsync_[OS]_amd64
+    chmod +x ~/Downloads/envsync_[OS]_[ARCH]
     ```
 
 4. Move to /usr/local/bin.
 
     ```sh
-    mv ~/Downloads/envsync_[OS]_amd64 /usr/local/bin/envsync
+    mv ~/Downloads/envsync_[OS]_[ARCH] /usr/local/bin/envsync
     ```
 
 ## Usage
