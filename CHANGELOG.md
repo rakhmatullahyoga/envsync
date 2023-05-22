@@ -2,6 +2,12 @@
 
 See <https://github.com/bukalapak/envsync> for the code.
 
+## v1.1.3 (2023-05-22)
+
+**Fixed**
+- Move to go mod.
+- Made available for arm64
+
 ## v1.1.2 (2019-04-01)
 
 **Fixed**
